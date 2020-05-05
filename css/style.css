@@ -1,0 +1,158 @@
+body, html {
+    height: 100%;
+}
+
+/* Navbar */
+#navbarid {
+    background: rgba(36, 48, 60, 0.8);
+}
+
+.navbar-brand img {
+    width: 40px;
+}
+
+/* Home page */
+.home-image {
+    background-image: radial-gradient(rgba(36, 48, 60, 0.5), rgba(36, 48, 60, 0.1)), url("../img/jpg/slide1.jpg");
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+.home-text {
+    /* Place text in the middle of the home image */
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: floralwhite;
+}
+
+/* Button to browse recipes */
+.browser-button {
+    background-color: floralwhite;
+    border: none;
+    color: black;
+    padding: 5px 15px;
+    text-align: center;
+    display: inline-block;
+}
+
+    .browser-button:hover {
+        background: rgba(36, 48, 60, 0.6);
+        border: none;
+        color: white;
+    }
+
+    .browser-button:active {
+        color: black;
+    }
+
+/* Contact page */
+.contact-image {
+    background-image: linear-gradient(rgba(36, 48, 60, 0.5), rgba(36, 48, 60, 0)), url("../img/jpg/slide2.jpg");
+    height: 125%;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+.contact-text {
+    /* Place text in the middle of the contact image */
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: floralwhite;
+}
+
+/* Contact form */
+.flexContainer {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
+
+input,
+textarea,
+select {
+    margin: 5px 0;
+}
+
+input,
+textarea,
+select {
+    padding: 10px;
+}
+
+.submit:hover {
+    background: rgba(36, 48, 60, 0.7);
+    border: none;
+    color: white;
+}
+
+/* Recipes cards */
+.card-img-top {
+    width: 100%;
+    height: 20vw;
+    object-fit: cover;
+}
+
+/* Button to browse recipes */
+.btn-primary {
+    background: white;
+    border: none;
+    color: black;
+    font-weight: 500;
+    font-size: larger;
+    padding: 0;
+    text-align: left;
+}
+
+    .btn-primary:hover {
+        background: rgba(36, 48, 60, 0);
+        border: none;
+        color: grey;
+        text-decoration: underline;
+    }
+
+    .btn-primary:active {
+        background: white !important;
+        color: black;
+        border: none !important;
+    }
+
+/* Blog articles */
+.blog-card-img-top {
+    width: 100%;
+    height: 20vw;
+    object-fit: cover;
+}
+
+/* Button to read articles */
+.btn-secondary {
+    background: white;
+    border: none;
+    color: black;
+    padding: 0;
+    text-align: left;
+}
+
+    .btn-secondary:hover {
+        background: rgba(36, 48, 60, 0);
+        border: none;
+        color: grey;
+        text-decoration: underline;
+    }
+
+    .btn-secondary:active {
+        background: white !important;
+        color: black;
+        border: red !important;
+    }
+
+
+
